@@ -169,8 +169,8 @@
      $email = $_POST['email'];
      $password = $_POST['password'];
     
-     echo $email;
-     echo $password;
+    //  echo $email;
+    //  echo $password;
 
     $sel = "select * from register where email = '$email' and password = '$password'";
     $result = mysqli_query($conn,$sel);
@@ -182,7 +182,7 @@
       $_SESSION['email'] = $email;
       header("Location:view.php");
     }else{
-     echo "error while logging in";
+     echo "<p style='color:red'>incorrect credentials</p>";
     }
   }
 

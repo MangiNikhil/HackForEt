@@ -83,29 +83,26 @@
 
         <div class="container">
           
-                <label for="sname">Subject Name</label>
+                <label for="sname">Subject of material</label>
 
                 <input type="text" id="sname" name="sname" placeholder="subjectname..">
 
-                <label for="bname">material Name</label>
-
-                <input type="text" id="bname" name="bname" placeholder="bookname..">
-
+               
                 <label for="year">Year</label>
 
                 <select id="year" name="year">
                  <option value="sel">Select</option>
-                 <option value="I">I year </option>
-                 <option value="II">II year</option>
-                 <option value="III">III year</option>
-                 <option value="IV">IV year</option>
+                 <option value="1st">I year </option>
+                 <option value="2nd">II year</option>
+                 <option value="3rd">III year</option>
+                 <option value="4th">IV year</option>
                </select>
 
                 <label for="semester">Semester</label>
                 <select id="sem" name="sem">
                 <option value="sel">Select</option>
-                <option value="I">I </option>
-                <option value="II">II</option>
+                <option value="1st">I sem</option>
+                <option value="2nd">II sem</option>
               </select>
 
                <label for="semester">branch</label>
@@ -122,7 +119,7 @@
                 <input type="text" id="uploader" name="uploader" placeholder="uploader Name ..">
                <label for="">upload material</label>
     <input type="file" name="material" id="">
-    <input type="submit">
+    <input type="submit" value="upload">
                 <!-- <input type="submit" value="Submit"> -->
             
         </div>
