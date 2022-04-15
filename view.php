@@ -61,7 +61,7 @@
          <?php
           if($_SESSION['email']!=""){
            ?>
- <li class="text-center"> <a class="btn btn-danger m-2" href="delete.php?id=<?= $row['mid']?>">delete</a></li>
+ <li class="text-center"> <a class="btn btn-danger m-2" href="delete.php?id=<?= $row['mid']?>" onclick="return confirm('Are you surely want to delete the material?');">delete</a></li>
            <?php
           }
          

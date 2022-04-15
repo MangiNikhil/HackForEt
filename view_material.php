@@ -19,7 +19,7 @@
   <div class="navbar">
             <ul>
                 <li><a href="./view_material.php">Study Materials</a></li>
-                <li><a href="./upload.php">Upload</a></li>
+                <!-- <li><a href="./upload.php">Upload</a></li> -->
                   <li><a href="./login.php">login</a></li>
                 <!-- <?php 
                  if($_SESSION['email']!=""){
@@ -62,7 +62,7 @@
          <?php
           if($_SESSION&&$_SESSION['email']!=""){
            ?>
- <li class="text-center"> <a class="btn btn-danger m-2" href="delete.php?id=<?= $row['mid']?>">delete</a></li>
+ <li class="text-center"> <a class="btn btn-danger m-2" href="delete.php?id=<?= $row['mid']?>" >delete</a></li>
            <?php
           }
          
