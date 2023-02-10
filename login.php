@@ -218,7 +218,7 @@
             <input type="submit" value="Login">
             <a href="./forgetpassword">forget password?</a>
             <!-- <br> -->
-            <a class="register" href="register.php">register</a>
+            <a class="register" href="register.html">register</a>
         </form>
       </div>
     </div>
